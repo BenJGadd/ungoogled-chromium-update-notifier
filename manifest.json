@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Ungoogled Chromium Update Notifier",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://ungoogled-software.github.io/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "action": {}
+}
